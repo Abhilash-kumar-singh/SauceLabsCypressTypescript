@@ -1,0 +1,22 @@
+[
+    {
+        "username":"standard_user",
+        "password":"secret_santa",
+        "isCorrectCredential":false
+    },
+    {
+        "username":"standard_user",
+        "password":"",
+        "isCorrectCredential":false
+    },
+    {
+        "username":"",
+        "password":"secret_sauce",
+        "isCorrectCredential":false
+    },
+    {
+        "username":"standard_user",
+        "password":"secret_sauce",
+        "isCorrectCredential":true
+    }
+]
