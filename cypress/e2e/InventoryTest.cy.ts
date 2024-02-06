@@ -7,7 +7,7 @@ describe("should validate inventory page",()=>{
     })
 
     beforeEach(()=>{
-        cy.visit("https://www.saucedemo.com/v1/index.html")
+        cy.visit("/index.html")
         loginPage.login("standard_user","secret_sauce")
     })
 

@@ -5,7 +5,7 @@ describe("should validate login feature",()=>{
         cy.fixture('LoginUserData.json').as('Users')
     })
     it("first test",()=>{
-        cy.visit("https://www.saucedemo.com/v1/index.html")
+        cy.visit("/index.html")
         cy.get('@Users').each(user=>{
             loginPage.login(user.username,user.password)
             cy.url().then(url=>{
