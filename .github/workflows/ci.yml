@@ -14,8 +14,16 @@ jobs:
         with:
           command: npx cypress run
 
-      - name: Save build folder
+      - name: Save report
         uses: actions/upload-artifact@v4
         with:
           name: mochaawesome-report
           path: ./cypress/reports
+
+      - name: Save videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: ./cypress/videos
+
+      
